@@ -71,8 +71,8 @@ while t < tf
     end
     
     if iter > itermax
-        fprintf('\n Maximum no. of iterations (%g)'.itermax)
-        fprintf('\n exceeded at time = %g'.t)
+        fprintf('\n Maximum no. of iterations (%g)',itermax)
+        fprintf('\n exceeded at time = %g',t)
         fprintf('\n in function ''heun.''\n\n')
         return
     end
